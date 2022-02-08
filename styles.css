@@ -1,0 +1,72 @@
+.naslov{
+width: 100%;
+text-align: center;
+color: white;
+font-family: Garamond;
+
+}
+.osobine{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border: 3px solid rgb(240, 234, 234);
+    width: 100%;
+    height: 200px;
+   color: white;
+    font-size: large;
+    font-family: Garamond;
+}
+
+.sukuna{
+    vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid black;
+    
+    
+}
+.aboutme{
+  text-align: center;
+}
+.sukunawrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.aboutme{
+    color: whitesmoke;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:#181F1C;
+    padding: 20px;
+    font-family: Arial;
+  }
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  
+  .row,
+.row > .column {
+  padding: 8px;
+  
+}
+.column {
+    float: left;
+    width: 25%;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+    
+  }
+  
+  
